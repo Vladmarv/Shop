@@ -1,4 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Water+Brush&display=swap");
 @import "reset.scss";
+//--------------------------------
+$ff1: "PT Sans", sans-serif;
+$ff2: "Water Brush", cursive;
 
+$color1: #231f20;
+$color2: #3a5c5e;
+//$color3: ;
+//$color4: ;
+//$color5: ;
+//--------------------------------
+body {
+  font-family: $ff1;
+  font-size: 16px;
+  color: $color1;
+  background: #fffbf7;
+}
+a {
+  color: inherit;
+  &:hover {
+    color: $color2;
+  }
+}
+.container {
+  max-width: calc(1540px + 30px);
+  padding: 0 15px;
+  margin: 0 auto;
+}
+//--------------------------------
 @import "header";
 @import "footer";
